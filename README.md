@@ -12,7 +12,8 @@ This calculator performs simple arithmetic operations, such as:
 - Division  
 - Exponentiation  
 - Root extraction
-![Calculator in action](assets/calculator.gif)
+  
+![Calculator in action](assets/textual_calculator.gif)
 
 
 ## Intalation
