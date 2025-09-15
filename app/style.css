@@ -1,0 +1,45 @@
+/* Cancel and Del Buttons */
+Button.cdell {
+    background: rgb(255, 67, 67);
+    color: white
+}
+Button.cdell:hover {
+    background: rgb(167, 0, 0);
+    color: white;
+}
+
+/* Equal Button */
+Button.equal {
+    background: greenyellow;
+    color: white;
+}
+Button.equal:hover {
+    background: green; 
+    color: white;
+}
+
+
+/* Operators Buttons */
+Button.operator {
+    background: rgb(122, 200, 236);
+    color: white;
+}
+Button.operator:hover {
+    background: blue; 
+    color: white;
+}
+
+/* Display de resultados*/
+#result {
+    width: 64;
+    color: white;
+    background: #222222;
+    padding: 1 2;       /* top/bottom 1, left/right 2 */
+    text-align: right;
+    border: round #555555;
+}
+
+/* Faz as caixas terem o tamanho necessário para os botões */
+Horizontal {
+    height: auto;   /* mantém altura mínima, não expande */
+}
